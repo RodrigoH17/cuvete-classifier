@@ -1,0 +1,30 @@
+# Python cache
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python virtual environment
+**/venv/
+**/.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Runtime data (NÃO subir)
+data/counts.json
+data/predictions.csv
+data/daily/*
+
+# Captures (NÃO subir imagens)
+captures/accepted/*
+captures/rejected/*
+captures/debug/*
+
+# Model (NÃO subir peso)
+model/*.pt
+
+# Logs
+logs/
+*.log
