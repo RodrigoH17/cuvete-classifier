@@ -1,12 +1,12 @@
 # Python cache
-**/__pycache__/
+__pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Python virtual environment
-**/venv/
-**/.venv/
+# Virtual environment
+venv/
+.venv/
 
 # IDE
 .vscode/
@@ -15,15 +15,19 @@
 # Runtime data (NÃO subir)
 data/counts.json
 data/predictions.csv
-data/daily/*
+data/daily/
 
 # Captures (NÃO subir imagens)
-captures/accepted/*
-captures/rejected/*
-captures/debug/*
+captures/accepted/
+captures/rejected/
+captures/debug/
 
-# Model (NÃO subir peso)
-model/*.pt
+# Model (guardar só o best.pt)
+model/*
+!model/best.pt
+
+# Test images (NÃO subir)
+test_images/
 
 # Logs
 logs/
