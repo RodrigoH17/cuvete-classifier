@@ -13,14 +13,14 @@ venv/
 .idea/
 
 # Runtime data (NÃO subir)
-data/counts.json
-data/predictions.csv
-data/daily/
+data/*
+!data/.gitkeep
 
 # Captures (NÃO subir imagens)
-captures/accepted/
-captures/rejected/
-captures/debug/
+captures/accepted/*
+captures/rejected/*
+captures/debug/*
+!captures/**/.gitkeep
 
 # Model (guardar só o best.pt)
 model/*
@@ -28,6 +28,7 @@ model/*
 
 # Test images (NÃO subir)
 test_images/
+test_videos/
 
 # Logs
 logs/
