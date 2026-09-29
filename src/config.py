@@ -4,14 +4,14 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 # Paths
 MODEL_PATH = PROJECT_ROOT / "model" / "best.pt"
-VIDEO_PATH = PROJECT_ROOT / "test_videos" / "hamburguer77.mp4"
+VIDEO_PATH = PROJECT_ROOT / "test_videos" / "video.mp4"
 
 # Output
 SAVE_OUTPUT_VIDEO = False
 OUTPUT_VIDEO_PATH = PROJECT_ROOT / "outputs" / "annotated_output.mp4"
 
 # Classification
-CONFIDENCE_THRESHOLD = 0.80
+CONFIDENCE_THRESHOLD = 0.90
 
 # Motion / event detection
 MOTION_THRESHOLD = 35          # threshold do pixel diff

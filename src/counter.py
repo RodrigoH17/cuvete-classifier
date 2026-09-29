@@ -61,8 +61,14 @@ def main():
 
     counts = {
         "hamburguer": 0,
+        "hamburguer_bovino": 0,
         "peito": 0,
         "pernas_frango": 0,
+        "almondegas": 0,
+        "almondegas_bovino": 0,
+        "carnepicada": 0,
+        "carnepicada_bovino": 0,
+        "espetadas": 0,
         "desconhecido": 0,
     }
 
